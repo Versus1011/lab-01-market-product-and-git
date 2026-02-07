@@ -10,7 +10,7 @@
 
 ![Wildberries Component Diagram](./diagrams/out/wildberries/component-diagram/Component Diagram.svg)
 
-**PlantUML code:** [component-diagram.puml](./diagrams/src/wildberries/architecture-component.puml)
+**PlantUML code:** [architecture-component.puml](./src/wildberries/architecture-component.puml)
 
 ### Selected Components
 
@@ -33,9 +33,9 @@
 
 ### Sequence Diagram
 
-![Wildberries Sequence Diagram](./diagrams/out/wildberries/sequence-diagram/Sequence Diagram.svg)
+![Wildberries Sequence Diagram](./diagrams/out/wildberries/architecture-sequence/Sequence Diagram.svg)
 
-**PlantUML code:** [sequence-diagram.puml](./diagrams/src/wildberries/architecture-sequence.puml)
+**PlantUML code:** [architecture-sequence.puml](./src/wildberries/architecture-sequence.puml)
 
 ### Flow Description
 
@@ -65,9 +65,9 @@
 
 ### Deployment Diagram
 
-![Wildberries Deployment Diagram](./diagrams/out/wildberries/deployment-diagram/Deployment Diagram.svg)
+![Wildberries Deployment Diagram](./diagrams/out/wildberries/architecture-deployment/Deployment Diagram.svg)
 
-**PlantUML code:** [deployment-diagram.puml](./diagrams/src/wildberries/architecture-deployment.puml)
+**PlantUML code:** [architecture-deployment.puml](./src/wildberries/architecture-deployment.puml)
 
 ### Deployment Description
 
@@ -89,5 +89,5 @@
 
 1. **Механизм поиска:** Как именно реализован полнотекстовый поиск по товарам? Используется ли Elasticsearch или собственная поисковая система? Как обрабатываются опечатки и синонимы?
 2. **Система рекомендаций:** Как работает система рекомендаций "Похожие товары" и "С этим покупают"? Используются ли алгоритмы машинного обучения, и если да, то как они обучаются и обновляются?
-3. **Геораспределение:** Как организована инфраструктура для пользователей из разных стран (Россия, Беларусь, Казахстан и др.)? Есть ли региональные дата-центры, и как синхронизируются данные между ними?
+3. **Геораспределение:** Как организована инфраструктура для пользователей из разных стран (Россия, Беларусь, Казахстан и др)? Есть ли региональные дата-центры, и как синхронизируются данные между ними?
 4. **Обработка очередей:** Какая система очередей сообщений (Kafka, RabbitMQ, NATS) используется для асинхронного взаимодействия между микросервисами, и как обеспечивается надежность доставки сообщений?
